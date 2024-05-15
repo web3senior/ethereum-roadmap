@@ -9,18 +9,30 @@ function Home({ title }) {
 
   return (
     <>
-      <div className="container">
-        <ul>
+       <div className={`__container`} data-width={`large`}>
+      <nav className={`${styles['nav']}`}>
+      <ul className={`d-flex flex-row align-items-center justify-content-between`}>
           <li>
-          <a href={`#`}>The Merge</a>
+          <a href={`#merge`}>The Merge</a>
           </li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+          <a href={`#surrge`}>The Surrge</a>
+          </li>
+          <li>
+          <a href={`#scourge`}>The Scourge</a>
+          </li>
+          <li>
+          <a href={`#verge`}>The Verge</a>
+          </li>
+          <li>
+          <a href={`#purge`}>The Purge</a>
+          </li>
+          <li>
+          <a href={`#splurge`}>The Splurge</a>
+          </li>
         </ul>
-        <section>
+      </nav>
+        <section id={`merge`}>
           <svg
             width="776"
             height="412"
@@ -388,7 +400,7 @@ function Home({ title }) {
           </svg>
         </section>
 
-        <section>
+        <section id={`surrge`}>
           <svg
             width="776"
             height="475"
@@ -773,7 +785,7 @@ function Home({ title }) {
           </svg>
         </section>
 
-        <section>
+        <section id={`scourge`}>
           <svg
             width="776"
             height="451"
@@ -1277,7 +1289,7 @@ function Home({ title }) {
           </svg>
         </section>
 
-        <section>
+        <section id={`verge`}>
           <svg
             width="776"
             height="451"
@@ -1705,7 +1717,7 @@ function Home({ title }) {
           </svg>
         </section>
 
-        <section>
+        <section id={`purge`}>
           <svg
             width="776"
             height="451"
@@ -2206,7 +2218,7 @@ function Home({ title }) {
           </svg>
         </section>
 
-        <section>
+        <section id={`splurge`}>
           <svg
             width="776"
             height="457"

@@ -1,106 +1,18 @@
 @import './../styles/components/responsive';
 
-.section {
-  height: inherit;
-  user-select: none;
-
-  @include small-down() {
-    padding: 0;
-  }
-
-  .lips {
-    padding: 1rem 0 2rem 0;
-    background-color: var(--color-primary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    &__container {
-    }
-
-    figure {
-      position: relative;
-    }
-
-    svg {
-      position: absolute;
-      right: 0rem;
-      bottom: 3.7rem;
-    }
-
-    button.dice {
-      width: 52px;
-      height: 52px;
-      border-radius: 999px;
-      position: absolute;
-      right: -3rem;
-      bottom: -0.1rem;
-      background-color: #111111;
-      background-image: url('./../assets/dice.svg');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 70%;
-      border: none;
-      outline: 3px solid rgba(0, 0, 0, 0.2);
-      transition: all ease-in-out 0.2s;
-      opacity: 0.8;
-      cursor: pointer;
-
-      &:hover {
-        opacity: 1;
-      }
-
-      &:active {
-        transform: rotate(-360deg) scale(0.9);
+.nav {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  max-width: 800px;
+  backdrop-filter: blur(4px);
+  ul {
+    li {
+      a {
       }
     }
-  }
-
-  button.mint {
-    border: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    background-color: #111111;
-    color: var(--white);
-    border-radius: 999px;
-    padding: 0px;
-    gap: 26px;
-    width: 154px;
-    height: 52px;
-    outline: 3px solid rgba(0, 0, 0, 0.2);
-    filter: drop-shadow(0px 0px 7.8px rgba(0, 0, 0, 0.25));
-    cursor: pointer;
-
-    &:active {
-      transform: scale(0.95);
-    }
-
-    &[disabled] {
-      background-image: url('./../assets/wizard-btn-disabled.svg');
-      opacity: 0.4;
-      color: #212121;
-      cursor: not-allowed;
-    }
-  }
-
-  .btn-rewarded-link {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 12px;
-    gap: 10px;
-    width: 288px;
-    height: 57px;
-    background: rgb(255, 87, 34);
-    border-radius: 999px;
-    font-size: 1.6rem;
-    outline: 3px solid rgba(255, 87, 34, 0.5);
-    filter: drop-shadow(0px 0px 7.8px rgba(0, 0, 0, 0.25));
-    color: var(--white);
   }
 }
 
