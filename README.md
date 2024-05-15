@@ -2,10 +2,14 @@
 # The Ethereum Roadmap
 The Ethereum roadmap of 2024 is a six-phase journey proposed by Vitalik Buterin, Ethereum's co-founder. The six phases, namely — the Merge, the Surge, the Scourge, the Verge, the Purge, and the Splurge — are the technical way forward for Ethereum.
 
-<hr/>
-
-# Ethereum Interactive Roadmap
+# Interactive Roadmap
 This project aims to create a visually engaging and informative interactive experience for the Ethereum roadmap. It will serve as a central hub for the community to understand the future of Ethereum and delve deeper into specific upgrades.
+
+## Vector-based roadmap on Figma
+https://www.figma.com/community/file/1372642202453880651/ethereum-roadmap 
+
+## Demo
+https://ethereum-roadmap-blue.vercel.app/
 
 ## Key Features:
 By creating this interactive roadmap, we can foster a more informed and engaged Ethereum community.
@@ -26,7 +30,7 @@ The roadmap will be designed as a journey, guiding users through the evolution o
 Ethereum developers and enthusiasts
 Anyone interested in understanding the future of Ethereum and blockchain technology
 
-### Impact:
+## Impact:
 This interactive roadmap will:
 
 ### Empower the Ethereum community: 
