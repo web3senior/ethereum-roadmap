@@ -15,6 +15,27 @@
     }
   }
 }
+article.roadmap {
+  section {
+    svg {
+      a {
+        rect {
+          stroke-width:3;
+          stroke:green;
+          animation: 1.5s ease .5s infinite glow;
+          z-index: 999;
+        }
+
+      }
+    }
+  }
+}
+
+@keyframes glow {
+  from {  stroke-width:3;}
+  to {  stroke-width:8;}
+}
+
 
 .grid {
   gap: 0.7rem;
